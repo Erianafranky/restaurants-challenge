@@ -56,8 +56,8 @@ class Customer:
 def main():
     #create test instances
     customer1 = Customer("Amos", "kipkorir")
-    customer2 = Customer("kinuthia", "geofrey")
-    customer3 = Customer("florence", "wangechi")
+    customer2 = Customer("kinuthia", "Geofrey")
+    customer3 = Customer("Florence", "wangechi")
     customer4 = Customer("Ariana", "Dorothy")
 
 
@@ -74,5 +74,3 @@ def main():
 
     print(Customer.find_by_name("Amos kipkorir").full_name())
     print([c.full_name() for c in Customer.find_all_by_given_name("Amos")])
-
-main()

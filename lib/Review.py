@@ -20,9 +20,9 @@ class Review:
         return cls.all_reviews
 
 # Sample review instances
-review1 = Review("amos kipkorir", "Restaurant A", 4)
-review2 = Review("wangechi florence", "Restaurant B", 5)
-review3 = Review("dorothy ariana", "Restaurant C", 3)
+review1 = Review("amos kipkorir", "Radison Blue", 4)
+review2 = Review("wangechi florence", "Villa Rosa", 5)
+review3 = Review("dorothy ariana", "Hillpark Hotel", 3)
 
 
 for review in Review.all():

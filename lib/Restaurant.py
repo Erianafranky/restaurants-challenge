@@ -34,9 +34,9 @@ class Restaurant:
         return cls.all_restaurants
     
     
-restaurant1 = Restaurant("Restaurant A")
-restaurant2 = Restaurant("Restaurant B")
-restaurant3 = Restaurant("Restaurant C")
+restaurant1 = Restaurant("Radison Blue")
+restaurant2 = Restaurant("Villa Rosa")
+restaurant3 = Restaurant("Hillpark Hotel")
 
 for restaurant in Restaurant.all_restaurants:
     print(restaurant.get_name())
