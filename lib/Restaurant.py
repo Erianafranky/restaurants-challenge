@@ -1,7 +1,7 @@
 class Restaurant:
     all_restaurants = []  
 
-    def _init_(self, name):
+    def __init__(self, name):
         self.name = name
         self.reviews = []  
         Restaurant.all_restaurants.append(self)

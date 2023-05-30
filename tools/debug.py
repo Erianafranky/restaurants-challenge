@@ -3,7 +3,7 @@ import ipdb;
 class Customer:
     instances = []
 
-    def _init_(self, given_name="John", family_name="Doe"):
+    def __init__(self, given_name="amos", family_name="kipkorir"):
         self.given_name = given_name
         self.family_name = family_name
         self.reviews = {}
@@ -80,7 +80,6 @@ def main():
 main()
 
 if __name__ == '__main__':
-#  WRITE YOUR TEST CODE HERE ###
 
 
 
